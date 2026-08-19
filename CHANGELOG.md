@@ -19,3 +19,5 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   process exit code.
 - `tools/assembler/main.cpp` and `tools/disassembler/main.cpp` as placeholder entry points
   for the two command line tools.
+- Docs section in the README linking the changelog and the contributing notes.
+- `Opcode` enum defined with the arithmetic instructions ADD, SUB, MUL, DIV, MOD and NEG.
