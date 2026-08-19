@@ -26,3 +26,5 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   `int64_t` and `double`.
 - `Stack`, the operand stack, wrapping a `std::vector<Value>` with push, pop and peek
   that throw `std::out_of_range` on overflow and underflow.
+- `VM::run` fetch-decode-execute loop, plus `VM::load` for installing a bytecode buffer
+  and accessors for the instruction pointer and operand stack.
