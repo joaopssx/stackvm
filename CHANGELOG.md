@@ -17,3 +17,5 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   constructor, destructor and `run`.
 - `tests/main.cpp` with a test runner entry point that reports failure count through the
   process exit code.
+- `tools/assembler/main.cpp` and `tools/disassembler/main.cpp` as placeholder entry points
+  for the two command line tools.
