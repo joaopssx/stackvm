@@ -13,3 +13,5 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   `STACKVM_VERSION_PATCH` and `STACKVM_VERSION_STRING`.
 - `include/stackvm/opcode.hpp` and `include/stackvm/vm.hpp` scaffolding the `Opcode` enum
   and the `VM` class, declarations only.
+- `src/opcode.cpp` and `src/vm.cpp` with stub definitions for `opcode_name` and the `VM`
+  constructor, destructor and `run`.
