@@ -21,3 +21,4 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   for the two command line tools.
 - Docs section in the README linking the changelog and the contributing notes.
 - `Opcode` enum defined with the arithmetic instructions ADD, SUB, MUL, DIV, MOD and NEG.
+- PUSH_CONST, POP, DUP and SWAP added to the `Opcode` enum for stack manipulation.
