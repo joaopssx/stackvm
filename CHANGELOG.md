@@ -15,3 +15,5 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   and the `VM` class, declarations only.
 - `src/opcode.cpp` and `src/vm.cpp` with stub definitions for `opcode_name` and the `VM`
   constructor, destructor and `run`.
+- `tests/main.cpp` with a test runner entry point that reports failure count through the
+  process exit code.
